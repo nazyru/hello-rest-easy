@@ -1,0 +1,8 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+    <deployment>
+        <dependencies>
+            <!--Use the full javax.ws.rs.api available on wildfly9-->
+            <module name="javax.ws.rs.api" export="true"  services="export"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
